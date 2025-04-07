@@ -5,3 +5,4 @@ for x in range(1, 1000):
     pyautogui.click()
 
 print('Olá, Mundo!')
+print('Oi!')

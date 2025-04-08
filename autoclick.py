@@ -1,7 +1,11 @@
 import pyautogui
+import pyperclip
 
-pyautogui.moveTo(1911,96, duration=1)
-pyautogui.click()
-pyautogui.scroll(-1500)
-pyautogui.moveTo(565,477, duration=1)
-pyautogui.click()
+def escrever_frase(frase):
+    pyperclip.copy(frase)
+    pyautogui.hotkey('ctrl', 'v')
+
+pyautogui.click(403,572, duration=3)
+pyautogui.click(880,994, duration=3)
+pyautogui.typewrite('Oi amor, estou te enviando essa mensagem via codigo! Te amo <3')
+pyautogui.click(1647,992, duration=3)

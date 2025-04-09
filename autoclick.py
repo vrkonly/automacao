@@ -1,4 +1,3 @@
-
 #pyautogui.alert(text='Estamos entrando em nossa Automação', title='Aviso')
 #email = pyautogui.prompt(text='Digite seu e-mail', title='Informações Obrigatórias')
 #print(f'você digitou {email}')

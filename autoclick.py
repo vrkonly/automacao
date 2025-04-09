@@ -36,6 +36,8 @@ while operacao == True:
             pyautogui.click(24,83, duration=1.5)
             pyautogui.click(53,168, duration=1.5)
             operacao = False
+        elif confirma == 'Não':
+            operacao = False
     elif email != 'automacao@gmail.com':
         pyautogui.alert(text='Infelizmente você digitou um e-mail que não corresponde ao cadastrado neste sistema, favor tentar novamente.', title='Atenção!')
        
